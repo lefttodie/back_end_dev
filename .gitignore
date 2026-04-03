@@ -1,0 +1,43 @@
+# 🔐 Environment variables (VERY IMPORTANT)
+.env
+
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🧪 Virtual environment
+venv/
+env/
+ENV/
+
+# 📦 Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# 🧾 Logs
+*.log
+
+# 🧠 IDE files
+.vscode/
+.idea/
+
+# 🪟 OS files
+.DS_Store
+Thumbs.db
+
+# 📄 Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 🔄 Migrations (if using DB later)
+alembic/versions/
+
+# 📁 Temporary files
+*.swp
+*.swo
+
+# 📦 dotenv backup files
+.env.*
