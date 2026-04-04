@@ -1,43 +1,41 @@
-# 🔐 Environment variables (VERY IMPORTANT)
+# Environment variables
 .env
+.env.*
 
-# 🐍 Python cache
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# 🧪 Virtual environment
+# Virtual environments
 venv/
 env/
 ENV/
 
-# 📦 Distribution / packaging
+# Distribution / packaging
 build/
 dist/
 *.egg-info/
 
-# 🧾 Logs
+# Logs
 *.log
 
-# 🧠 IDE files
+# IDE files
 .vscode/
 .idea/
 
-# 🪟 OS files
+# OS files
 .DS_Store
 Thumbs.db
 
-# 📄 Pytest / coverage
+# Pytest / coverage
 .pytest_cache/
 .coverage
 htmlcov/
 
-# 🔄 Migrations (if using DB later)
+# Migrations (optional)
 alembic/versions/
 
-# 📁 Temporary files
+# Temporary files
 *.swp
 *.swo
-
-# 📦 dotenv backup files
-.env.*
